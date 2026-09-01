@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicky Cabahug | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Vicky <span>Cabahug</span></div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="page-title">
+        <h1>Contact Me</h1>
+        <p>Feel free to send me a message.</p>
+    </section>
+
+    <section class="contact-container">
+
+        <aside class="contact-info">
+            <h2>Contact Information</h2>
+
+            <p><strong>Name:</strong> Vicky Cabahug</p>
+            <p><strong>Email:</strong> vicky@example.com</p>
+            <p><strong>Location:</strong> Cebu, Philippines</p>
+
+            <p>
+                You can also visit
+                <a href="https://www.google.com" target="_blank">
+                    Google
+                </a>
+                for more information.
+            </p>
+        </aside>
+
+        <article class="form-box">
+
+            <h2>Send a Message</h2>
+
+            <form>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <p>Gender:</p>
+
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+
+                <p>What are you interested in?</p>
+
+                <label>
+                    <input type="checkbox" name="interest" value="web">
+                    Web Development
+                </label>
+
+                <label>
+                    <input type="checkbox" name="interest" value="html">
+                    HTML
+                </label>
+
+                <label>
+                    <input type="checkbox" name="interest" value="design">
+                    Web Design
+                </label>
+
+                <label for="reason">Reason for Contact:</label>
+
+                <select id="reason" name="reason">
+                    <option value="">Select one</option>
+                    <option value="question">Question</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="project">Project</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message:</label>
+
+                <textarea id="message" name="message"
+                          rows="6"
+                          placeholder="Write your message here..."
+                          required></textarea>
+
+                <div class="form-buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+
+            </form>
+
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Vicky Cabahug. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

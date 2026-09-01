@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f3ed;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    background: #4b2e22;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #e8b878;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e8b878;
+}
+
+/* MAIN */
+
+main {
+    min-height: 80vh;
+}
+
+/* HOME */
+
+.hero {
+    min-height: 550px;
+    padding: 70px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.small-title {
+    color: #9a6847;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #9a6847;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #9a6847;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.profile-card {
+    text-align: center;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #0002;
+}
+
+.profile-card img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-card h2 {
+    margin-top: 15px;
+    color: #4b2e22;
+}
+
+.welcome {
+    text-align: center;
+    padding: 50px 10%;
+    background: #ead8c5;
+}
+
+/* PAGE TITLE */
+
+.page-title {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ead8c5;
+}
+
+.page-title h1 {
+    font-size: 45px;
+    color: #4b2e22;
+}
+
+/* ABOUT */
+
+.about-container {
+    display: flex;
+    gap: 30px;
+    padding: 50px 10%;
+}
+
+.about-box {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 15px #0002;
+}
+
+.about-box h2,
+.skills h2,
+.info-table h2 {
+    color: #70452f;
+    margin-bottom: 15px;
+}
+
+.about-box li {
+    margin: 8px 0;
+}
+
+.skills {
+    padding: 30px 10%;
+}
+
+.skills li {
+    margin: 8px 0;
+}
+
+.info-table {
+    padding: 30px 10% 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    padding: 14px;
+    border: 1px solid #bda997;
+    text-align: left;
+}
+
+th {
+    background: #70452f;
+    color: white;
+}
+
+/* PROJECTS */
+
+.projects {
+    padding: 50px 8%;
+    display: flex;
+    gap: 25px;
+}
+
+.project-card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 15px #0002;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-card h2 {
+    margin: 15px 0;
+    color: #70452f;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #9a6847;
+    font-weight: bold;
+}
+
+.multimedia {
+    padding: 30px 10% 60px;
+}
+
+.multimedia h2 {
+    color: #70452f;
+    margin-bottom: 20px;
+}
+
+.multimedia h3 {
+    margin-top: 20px;
+}
+
+video {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+/* CONTACT */
+
+.contact-container {
+    padding: 50px 10%;
+    display: flex;
+    gap: 30px;
+}
+
+.contact-info,
+.form-box {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 15px #0002;
+}
+
+.contact-info h2,
+.form-box h2 {
+    color: #70452f;
+    margin-bottom: 20px;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #bda997;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    background: #70452f;
+    color: white;
+}
+
+button:hover {
+    background: #9a6847;
+}
+
+/* FOOTER */
+
+footer {
+    background: #4b2e22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .about-container,
+    .projects,
+    .contact-container {
+        flex-direction: column;
+    }
+}
